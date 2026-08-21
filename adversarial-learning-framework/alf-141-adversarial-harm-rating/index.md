@@ -342,7 +342,7 @@ also some suggested constants built into the model which can be tuned to
 best fit an organization’s requirements. Here we will step through the
 model and highlight where such flexibility can be considered.
 
-<img src="media/image1.png"
+<img src="figures/ahr_model_full_dataflow_v4.svg"
 style="width:14.89583in;height:12.91667in" />
 
 #### **Step 1.** **Rate Victim Impact: Low/Medium/High**
