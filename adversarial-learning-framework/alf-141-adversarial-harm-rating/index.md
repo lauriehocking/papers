@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'ALF-141 — Adversarial Harm Rating'
+title: 'ALF-141 — Adversarial Harm Rating Model'
 ---
 Version 0.1\
 Date: August 2026\
