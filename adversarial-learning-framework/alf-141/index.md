@@ -21,7 +21,7 @@ notebooks:
 - **[Figures](figures/)** — Source graphics used in the paper.
 - **[PDF version](ALF-141_Adversarial_Harm_Rating.pdf)** — Downloadable PDF of the paper.
 
-## **Author's Note**
+## Author's Note
 
 While tackling safety adversaries, organizations frequently have to make
 tough decisions on prioritization – there is often more harm than can be
@@ -35,7 +35,7 @@ ALF-140 (Measurement). The framework is intended to primarily suit AI
 labs and digital platform providers which have large user bases.
 Feedback is welcome at: laurie@lauriehocking.com
 
-## **1. Executive Summary**
+## 1. Executive Summary
 
 #### **The problem**
 
@@ -84,7 +84,7 @@ influence operation) – (AHR — Worked Hypothetical Examples)
 demonstrating it end to end. Both can be adopted and adapted directly,
 see Section 3 and the accompanying notebooks to get started.
 
-## **2. Design Principles** 
+## 2. Design Principles
 
 Key design principles that this model addresses are examined in greater
 detail below, however by means of introduction they are as follows:
@@ -334,7 +334,7 @@ constants are ensuring that the rating encompasses the three key axes
 scale of customization from the indicators used to the level of
 automation and quantitative vs qualitative approaches.
 
-## **3. The Adversarial Harm Rating Model** 
+## 3. The Adversarial Harm Rating Model
 
 The Adversarial Harm Rating (AHR) Model is flexible both in design and
 implementation. For several of the steps there are faster to implement,
