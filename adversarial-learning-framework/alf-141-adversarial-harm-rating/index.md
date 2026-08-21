@@ -8,6 +8,18 @@ Date: August 2026\
 Status: Draft excerpt — forms part of the future ALF-140 (Measurement)
 standard.
 
+## Supporting Materials
+
+The analyses underlying this paper are provided as reproducible Jupyter
+notebooks:
+
+- **[Analysis notebook](notebooks/analysis.ipynb)** — analysis supporting
+  the proposed harm-rating framework.
+- **[Sensitivity analysis](notebooks/sensitivity-analysis.ipynb)** —
+  examination of how changes in model inputs affect the resulting ratings.
+- **[Figures](figures/)** — Source graphics used in the paper.
+- **[PDF version](paper.pdf)** — Downloadable PDF of the paper.
+
 # **Author's Note**
 
 While tackling safety adversaries, organizations frequently have to make
