@@ -10,11 +10,6 @@ Status: Draft excerpt — forms part of the future ALF-140 (Measurement)
 standard.
 
 ## Supporting Materials
-
-The analyses underlying this paper are provided as reproducible Jupyter
-notebooks:
-<h2>Supporting Materials</h2>
-
 <p>
   The supporting code and analysis for this paper are available below.
 </p>
