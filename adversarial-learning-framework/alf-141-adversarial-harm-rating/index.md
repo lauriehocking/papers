@@ -343,7 +343,7 @@ best fit an organization’s requirements. Here we will step through the
 model and highlight where such flexibility can be considered.
 
 <img src="figures/ahr_model_full_dataflow_v4.svg"
-style="width:14.89583in;height:12.91667in" />
+alt="Adversarial Harm Rating Framework" style="width: 100%; max-width: 900px; height: auto;" />
 
 #### **Step 1.** **Rate Victim Impact: Low/Medium/High**
 
