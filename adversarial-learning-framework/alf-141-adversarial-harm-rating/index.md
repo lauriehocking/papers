@@ -432,12 +432,36 @@ decide that for their use case when the scale is low the Victim Harm
 Score can never rise above Low (perhaps because a different function
 deals with such cases).
 
-|  |  |  |  |
-|:---|:---|:---|:---|
-|  | **Low (Victim Impact)** | **Medium (Victim Impact)** | **High (Victim Impact)** |
-| **Low (Scale)** | Low | Low | Medium |
-| **Medium (Scale)** | Low | Medium | High |
-| **High (Scale)** | Medium | High | Critical |
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th></th>
+      <th>Low (Victim Impact)</th>
+      <th>Medium (Victim Impact)</th>
+      <th>High (Victim Impact)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="background-color: #f2f2f2;">Low (Scale)</th>
+      <td style="background-color: #e8f5e9;">Low</td>
+      <td style="background-color: #e8f5e9;">Low</td>
+      <td style="background-color: #fff8e1;">Medium</td>
+    </tr>
+    <tr>
+      <th style="background-color: #f2f2f2;">Medium (Scale)</th>
+      <td style="background-color: #e8f5e9;">Low</td>
+      <td style="background-color: #fff8e1;">Medium</td>
+      <td style="background-color: #fff3e0;">High</td>
+    </tr>
+    <tr>
+      <th style="background-color: #f2f2f2;">High (Scale)</th>
+      <td style="background-color: #fff8e1;">Medium</td>
+      <td style="background-color: #fff3e0;">High</td>
+      <td style="background-color: #ffebee;">Critical</td>
+    </tr>
+  </tbody>
+</table>
 
 *Output: Composite Victim Harm rating as Low/Medium/High combining the
 Victim Impact and Scale ratings*
