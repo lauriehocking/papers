@@ -12,12 +12,12 @@ standard.
 The analyses underlying this paper are provided as reproducible Jupyter
 notebooks:
 
-- **[Analysis notebook](notebooks/analysis.ipynb)** — analysis supporting
+- **[Sample notebook](code/ahr_model.ipynb)** — analysis supporting
   the proposed harm-rating framework.
-- **[Sensitivity analysis](notebooks/sensitivity-analysis.ipynb)** —
+- **[Hypothetical worked examples notebook](code/ahr_worked_examples.ipynb)** —
   examination of how changes in model inputs affect the resulting ratings.
 - **[Figures](figures/)** — Source graphics used in the paper.
-- **[PDF version](paper.pdf)** — Downloadable PDF of the paper.
+- **[PDF version](ALF-141_Adversarial_Harm_Rating.pdf)** — Downloadable PDF of the paper.
 
 # **Author's Note**
 
