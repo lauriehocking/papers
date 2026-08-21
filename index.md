@@ -1,4 +1,3 @@
-</> YAML
 ---
 layout: home
 title: 'Research'
