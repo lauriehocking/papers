@@ -1,3 +1,8 @@
+---
+layout: default
+title: 'ALF-141 — Adversarial Harm Rating'
+permalink: /alf-141-adversarial-harm-rating/
+---
 Version 0.1\
 Date: August 2026\
 Status: Draft excerpt — forms part of the future ALF-140 (Measurement)
