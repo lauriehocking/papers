@@ -1,7 +1,9 @@
 ---
 layout: default
-title: 'ALF-141 — Adversarial Harm Rating Model'
+title: 'ALF-141 — Adversarial Harm Rating (AHR)'
 ---
+# ALF-141 – Adversarial Harm Rating (AHR)
+
 Version 0.1\
 Date: August 2026\
 Status: Draft excerpt — forms part of the future ALF-140 (Measurement)
@@ -19,7 +21,7 @@ notebooks:
 - **[Figures](figures/)** — Source graphics used in the paper.
 - **[PDF version](ALF-141_Adversarial_Harm_Rating.pdf)** — Downloadable PDF of the paper.
 
-# **Author's Note**
+## **Author's Note**
 
 While tackling safety adversaries, organizations frequently have to make
 tough decisions on prioritization – there is often more harm than can be
@@ -33,7 +35,7 @@ ALF-140 (Measurement). The framework is intended to primarily suit AI
 labs and digital platform providers which have large user bases.
 Feedback is welcome at: laurie@lauriehocking.com
 
-# **1. Executive Summary**
+## **1. Executive Summary**
 
 #### **The problem**
 
@@ -82,7 +84,7 @@ influence operation) – (AHR — Worked Hypothetical Examples)
 demonstrating it end to end. Both can be adopted and adapted directly,
 see Section 3 and the accompanying notebooks to get started.
 
-# **2. Design Principles** 
+## **2. Design Principles** 
 
 Key design principles that this model addresses are examined in greater
 detail below, however by means of introduction they are as follows:
@@ -103,7 +105,7 @@ detail below, however by means of introduction they are as follows:
     organizations and problem domains (including both human and AI
     generated harm)
 
-## Harm Comprehensiveness - Harm Axes
+### Harm Comprehensiveness - Harm Axes
 
 The harm posed by safety adversaries typically falls across three
 primary axes which this model aims to capture which are explored further
@@ -115,7 +117,7 @@ below:
 
 3.  External Pressure
 
-### Victim Impact
+#### Victim Impact
 
 Because safety harm types are user centric we should take into account
 the degree of impact that a harm has on a given victim. This axis will
@@ -157,7 +159,7 @@ providing generic ideological encouragement), rather than trying to
 measure the scale of success (total individuals likely recruited - which
 would be a scale measurement).*
 
-### Scale
+#### Scale
 
 A factor which is especially relevant within digital platforms is that
 of scale - i.e. accounting for the quantity of harm being generated.
@@ -208,7 +210,7 @@ large network of connected accounts may be relatively poor at generating
 traction/views, whereas a single well optimized asset may outperform the
 larger network and thus be more harmful in terms of scale.*
 
-### External Pressure
+#### External Pressure
 
 This axis reflects how external pressure may affect the risk posed to
 the company as it pertains to a given domain or jurisdiction. The
@@ -259,7 +261,7 @@ or threat actor).
 
 - Threat actor
 
-## Automation and Quantitative Measurement
+### Automation and Quantitative Measurement
 
 One of the primary use cases for the Adversarial Harm Rating Model is
 being able to effectively triage and prioritise investigative leads.
@@ -292,7 +294,7 @@ domains but some high level considerations include:
   objective should be that a degree of automation should be pursued
   within this axis even though there will be exceptions.
 
-## Explainability
+### Explainability
 
 It is important to retain the composite parts that go into calculating a
 final score/rating. This is more an implementation problem than it is
@@ -320,7 +322,7 @@ over time, it will be important to know which version of the model was
 applied to a given adversarial operation, and to be able to refer to how
 that particular version calculated the rating.
 
-## Flexibility
+### Flexibility
 
 The safety space varies not only across platform/product type (AI labs,
 social media, service platforms) and organization, but also between harm
@@ -332,7 +334,7 @@ constants are ensuring that the rating encompasses the three key axes
 scale of customization from the indicators used to the level of
 automation and quantitative vs qualitative approaches.
 
-# **3. The Adversarial Harm Rating Model** 
+## **3. The Adversarial Harm Rating Model** 
 
 The Adversarial Harm Rating (AHR) Model is flexible both in design and
 implementation. For several of the steps there are faster to implement,
@@ -545,13 +547,13 @@ following two points:
     score of 3). This is a design choice which can be tuned according to
     need.
 
-# 4. Applying the Rating
+## 4. Applying the Rating
 
 This section provides two illustrative, hypothetical examples where the
 model is applied using synthetic data. See the accompanying Jupyter
 Notebook “AHR - Worked Hypothetical Examples” for code/calculations.
 
-## AI Lab Example
+### AI Lab Example
 
 *Scenario: “A series of accounts are being used to generate messages for
 scammers. The scam type appears to be investment scams targeting the
@@ -585,7 +587,7 @@ the account locations are automatically inferred from signals data.
 obtaining the product of the Victim Harm numerical value (High = 3) and
 the External Pressure multiplier (Medium = 1.15): 3 \* 1.15 = **3.45**
 
-## Social Media Example
+### Social Media Example
 
 *Scenario: “A network of 3,000 accounts are posting disinformation
 content to push a specific civic narrative in support of an upcoming
@@ -634,7 +636,7 @@ As described in the Limitations section there is no intention here to
 compare adversarial operations across domains (e.g. comparing a scam
 operation to an influence operation).*
 
-# 5. Limitations
+## 5. Limitations
 
 This approach to harm rating is intended to be intra-harm only, that is
 one should be able to build a rating framework to compare specific
@@ -649,7 +651,7 @@ That being said, some of the factors discussed here are relevant to such
 a discussion (particularly those under External Pressure) and may be
 explored as the subject of a later paper.
 
-# 6. Relationship to the Adversarial Learning Framework (ALF) 
+## 6. Relationship to the Adversarial Learning Framework (ALF) 
 
 This paper is a preview excerpt from the Adversarial Learning Framework
 (ALF) series, not a standalone standard and will be incorporated as part
@@ -664,7 +666,7 @@ This remains a v0.1 draft. Feedback that changes the model materially
 will be reflected in future revisions of this excerpt and folded into
 ALF-140 when it is formally published.
 
-# About the Maintainer
+## About the Maintainer
 
 Laurie Hocking has spent a career operating inside adversarial systems
 from three different vantage points: as a Scotland Yard Detective,
